@@ -1,0 +1,99 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{B18C3052-C6D6-4056-9E22-7236A4F42EAE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{D4B8309E-DB7A-4141-B7EC-CB444727AE32}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{C2790C30-8770-426D-ACA4-18BFA6CA2661}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Deployment", "Deployment", "{FDCE5E74-9FE1-4C1F-9CF0-B2D26B275A38}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{3E73F864-5CA0-458D-BEA3-819DC72D4A05}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MathTraining.Data.Core", "MathTraining.Data\MathTraining.Data.Core.csproj", "{BB634F8E-8403-49E2-891B-3C634BAD6B48}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MathTraining.Data.Common", "MathTraining.Data.Common\MathTraining.Data.Common.csproj", "{12A920B1-B255-4D61-9BAC-436828BDEF90}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MathTraining.Infrastructure.Logging", "MathTraining.Infrastructure.Logging\MathTraining.Infrastructure.Logging.csproj", "{54E2CC5E-984D-450D-B300-3DF2A928E194}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MathTraining.Data.Domain", "MathTraining.Data.Domain\MathTraining.Data.Domain.csproj", "{4D0A43A6-806D-4DE8-864F-B9148F393633}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MathTraining.Application", "MathTraining.Application\MathTraining.Application.csproj", "{62C34802-0D4A-4FF4-9704-323624633176}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{8134129E-09FC-488F-920C-C0031DE151AF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{DD42EA6C-592B-4A3C-AF2D-9ED8AE5ED824}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MathTraining.Api", "MathTraining.Api\MathTraining.Api.csproj", "{72ACCCE0-4A9D-4D23-941C-96DC7A0935D0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MathTraining.Client.Web", "MathTraining.Client.Web\MathTraining.Client.Web.csproj", "{06CA2219-E2C5-42EA-A796-DCC165724B9D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MathTraining.Service.Common", "MathTraining.Service.Common\MathTraining.Service.Common.csproj", "{D7DF27A0-F5AE-46A8-9C5B-7D7A8028D32B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.Application", "Test.Application\Test.Application.csproj", "{5612F3B5-5347-4FFA-88EC-99AD77A20B67}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB634F8E-8403-49E2-891B-3C634BAD6B48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB634F8E-8403-49E2-891B-3C634BAD6B48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB634F8E-8403-49E2-891B-3C634BAD6B48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB634F8E-8403-49E2-891B-3C634BAD6B48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12A920B1-B255-4D61-9BAC-436828BDEF90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12A920B1-B255-4D61-9BAC-436828BDEF90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12A920B1-B255-4D61-9BAC-436828BDEF90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12A920B1-B255-4D61-9BAC-436828BDEF90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54E2CC5E-984D-450D-B300-3DF2A928E194}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54E2CC5E-984D-450D-B300-3DF2A928E194}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54E2CC5E-984D-450D-B300-3DF2A928E194}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54E2CC5E-984D-450D-B300-3DF2A928E194}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D0A43A6-806D-4DE8-864F-B9148F393633}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D0A43A6-806D-4DE8-864F-B9148F393633}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D0A43A6-806D-4DE8-864F-B9148F393633}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D0A43A6-806D-4DE8-864F-B9148F393633}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62C34802-0D4A-4FF4-9704-323624633176}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62C34802-0D4A-4FF4-9704-323624633176}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62C34802-0D4A-4FF4-9704-323624633176}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62C34802-0D4A-4FF4-9704-323624633176}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72ACCCE0-4A9D-4D23-941C-96DC7A0935D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72ACCCE0-4A9D-4D23-941C-96DC7A0935D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72ACCCE0-4A9D-4D23-941C-96DC7A0935D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72ACCCE0-4A9D-4D23-941C-96DC7A0935D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06CA2219-E2C5-42EA-A796-DCC165724B9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06CA2219-E2C5-42EA-A796-DCC165724B9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06CA2219-E2C5-42EA-A796-DCC165724B9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06CA2219-E2C5-42EA-A796-DCC165724B9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7DF27A0-F5AE-46A8-9C5B-7D7A8028D32B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7DF27A0-F5AE-46A8-9C5B-7D7A8028D32B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7DF27A0-F5AE-46A8-9C5B-7D7A8028D32B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7DF27A0-F5AE-46A8-9C5B-7D7A8028D32B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5612F3B5-5347-4FFA-88EC-99AD77A20B67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5612F3B5-5347-4FFA-88EC-99AD77A20B67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5612F3B5-5347-4FFA-88EC-99AD77A20B67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5612F3B5-5347-4FFA-88EC-99AD77A20B67}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BB634F8E-8403-49E2-891B-3C634BAD6B48} = {3E73F864-5CA0-458D-BEA3-819DC72D4A05}
+		{12A920B1-B255-4D61-9BAC-436828BDEF90} = {3E73F864-5CA0-458D-BEA3-819DC72D4A05}
+		{54E2CC5E-984D-450D-B300-3DF2A928E194} = {8134129E-09FC-488F-920C-C0031DE151AF}
+		{4D0A43A6-806D-4DE8-864F-B9148F393633} = {3E73F864-5CA0-458D-BEA3-819DC72D4A05}
+		{62C34802-0D4A-4FF4-9704-323624633176} = {D4B8309E-DB7A-4141-B7EC-CB444727AE32}
+		{8134129E-09FC-488F-920C-C0031DE151AF} = {D4B8309E-DB7A-4141-B7EC-CB444727AE32}
+		{72ACCCE0-4A9D-4D23-941C-96DC7A0935D0} = {C2790C30-8770-426D-ACA4-18BFA6CA2661}
+		{06CA2219-E2C5-42EA-A796-DCC165724B9D} = {C2790C30-8770-426D-ACA4-18BFA6CA2661}
+		{D7DF27A0-F5AE-46A8-9C5B-7D7A8028D32B} = {DD42EA6C-592B-4A3C-AF2D-9ED8AE5ED824}
+		{5612F3B5-5347-4FFA-88EC-99AD77A20B67} = {B18C3052-C6D6-4056-9E22-7236A4F42EAE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {73D5158A-AC18-48D8-9B40-416B91AAE8AB}
+	EndGlobalSection
+EndGlobal
