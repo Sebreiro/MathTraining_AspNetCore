@@ -1,4 +1,5 @@
-﻿using Autofac;
+﻿using System;
+using Autofac;
 using MathTraining.Client.Web.Initialization;
 using MathTraining.Data.Core;
 using MathTraining.Data.Domain.Identity;
@@ -33,8 +34,11 @@ namespace MathTraining.Client.Web
         {
             services.AddMvc();
 
+            var connectionString = Environment.GetEnvironmentVariable("PostgresConnectionString") 
+                ?? Configuration.GetConnectionString("PostgreSQLConnection");
+
             services.AddDbContext<MainContext>(options =>
-                options.UseNpgsql(Configuration.GetConnectionString("PostgreSQLConnection")));
+                options.UseNpgsql(connectionString));
 
             services.AddIdentity<ApplicationUser, ApplicationRole>(options =>
                 {
